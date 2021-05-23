@@ -36,7 +36,7 @@ while True:
 	font = pygame.font.SysFont(pygame.font.get_default_font(), 45)
 	text = font.render("Press SpaceKey to start", True, (255, 255, 255))
 
-	pygame.time.delay(4)
+	pygame.time.delay(5)
 	for event in pygame.event.get():
 		if event.type == QUIT:
 			pygame.quit()
